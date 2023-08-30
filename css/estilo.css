@@ -65,10 +65,34 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-banner article{
+.banner article{
     margin-top: 5vh;
+    position: absolute;
 }
 .banner h1{
     font-size: 5vh;
+
+
+}
+.banner button{
+    color: white;
+    font-size: 3vh;
+}
+#btBannerAnterior{
+    background-color: #ff8800;
+    height: 1vh;
+    width:1vh;
+    padding: 2vh;
+    margin-top: 36vh;
+    position: absolute;
+}
+#btBannerProximo{
+    background-color: #ff8800;
+    height: 1vh;
+    width:1vh;
+    padding: 2vh;
+    margin-top: 36vh;
+    margin-left: 186.2vh;
+    position: absolute;
 
 }
