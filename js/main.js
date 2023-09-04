@@ -41,6 +41,15 @@ document.getElementById("btBannerAnterior").addEventListener("click",()=>{
     }
     B.ModificaBanner("banner_1",BannerInfo,BannerIndex)
 })
+
 cardProduto.CriarCards("Portacard1","Tênis Adidas","È um tenis de alta performace")
 cardProduto.CriarCards("Portacard1","Tênis Adidas","È um tenis de alta performace")
-cardProduto.CriarCards("Portacard1","Tênis Adidas","È um tenis de alta performace")
+
+
+let cardVenda = new Card()
+cardVenda.EscolherTipo("cardProduto")
+cardVenda.CriarCards("Portacard1","Produto a venda","Venda do produto")
+
+let CardNovo = new Card()
+CardNovo.EscolherTipo("card03")
+CardNovo.CriarCards("Portacard1","Estoque","ultimas peças")
