@@ -115,6 +115,12 @@
     margin-left: 5vh;
     
 }
+.card:hover{
+    transition: all 2s;
+    transform: scale(1.2);
+    background-color: lightcyan;
+}
+
 .card h1{
     font-size: 5vh;
     color: #86bcfa;
@@ -133,6 +139,11 @@
     margin-left: 5vh;
 
 }
+.cardProduto:hover{
+    transition: all 2s;
+    transform: scale(1.2);
+    background-color: lightcyan;
+}
 .card03{
     background-color: rgba(85, 170, 15, 0.993);
     height: 30vh;
@@ -140,5 +151,11 @@
     padding: 2vh;
     margin-top: 2vh;
     margin-left: 5vh;
+
+}
+.card03:hover{
+    transition: all 2s;
+    transform: scale(1.2);
+    background-color: lightcyan;
 
 }
