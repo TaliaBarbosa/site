@@ -120,6 +120,9 @@
     transform: scale(1.2);
     background-color: lightcyan;
 }
+.sb{
+    box-shadow: 2vh 1vh;
+}
 
 .card h1{
     font-size: 5vh;
