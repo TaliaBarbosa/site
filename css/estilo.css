@@ -74,6 +74,13 @@
 
 
 }
+.banner ul li img{
+    height: 35vh;
+    width: 60vh;
+    margin-left: 100vh;
+    margin-top: 3vh;
+
+}
 .banner button{
     color: white;
     font-size: 3vh;
@@ -179,9 +186,14 @@ footer h4{
     position: absolute;
     float: left;
 }
+    
+    
 .socialmidia ul li{
     float: left;
     margin-left: 5vh;
     list-style: none;
 
+}
+.socialmidia ul li a img{
+    height: 2vh;
 }
