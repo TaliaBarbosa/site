@@ -53,3 +53,5 @@ cardVenda.CriarCards("Portacard1","Produto a venda","Venda do produto")
 let CardNovo = new Card()
 CardNovo.EscolherTipo("card03 sb")
 CardNovo.CriarCards("Portacard1","Estoque","ultimas peças")
+
+
