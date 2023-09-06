@@ -1,6 +1,9 @@
 import navComponente from "./nav.js"
 import Banner from "./banner.js"
-import Card from "./cards.js";
+import Card from "./cards.js"
+import paginas from "./paginas.js"
+
+let pag = new paginas()
 
 function mainpage(){
 let Menus = ["Home","Produtos","Contato"]
@@ -70,12 +73,14 @@ function produtospage(){
     let pagina = document.getElementById("pagina")
     pagina.innerHTML = ""
     document.getElementsByClassName("localNav")[0].getElementsByTagName("h4")[0].innerHTML = "Produtos"
+    pag.PaginaDeProduto()
 
 
 
 }
-let HomeMenu = document.getElementById("Menu_02").getElementsByTagName("li")[1].getElementsByTagName("a")[0]
+let HomeMenu = document.getElementById("Menu_02").getElementsByTagName("li")[0].getElementsByTagName("a")[0]
 HomeMenu.addEventListener("click",()=>{
+    window.location.reload()
 
 })
 let ProdutoMenu = document.getElementById("Menu_02").getElementsByTagName("li")[1].getElementsByTagName("a")[0]
